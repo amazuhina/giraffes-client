@@ -1,0 +1,18 @@
+.btnAddGiraffe {
+    background-color: #668663;
+    border: none;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+
+.row {
+    display: flex;
+
+}

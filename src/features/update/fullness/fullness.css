@@ -1,0 +1,35 @@
+.fullness {
+    background-color: #668663;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding: 15px;
+}
+
+
+.btn-close {
+    background-color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-info {
+    background-color: #435F40;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 10px 15px;
+}

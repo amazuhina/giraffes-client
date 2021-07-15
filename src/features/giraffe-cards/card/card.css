@@ -1,0 +1,40 @@
+.Card {
+    width: 236px;
+    height: 495px;
+    background-color: #F3DBC7;
+    color: #435F40;
+    border-radius: 15px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-weight: 700;
+}
+
+.tableValues {
+    font-weight: 700;
+    background-color: #DCB18B;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 0 5px;
+    height: 35px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+
+.info-values {
+    font-weight: 400;
+}

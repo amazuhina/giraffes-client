@@ -1,0 +1,29 @@
+.table {
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    padding: 15px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-close-table {
+    background-color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #435F40;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.items {
+    /*display: flex;*/
+}

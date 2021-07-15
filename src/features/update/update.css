@@ -1,0 +1,12 @@
+.Update {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.left {
+    width: 40%;
+}
+
+
