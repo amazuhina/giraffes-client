@@ -1,10 +1,10 @@
 import React from 'react'
-import './update-item.css'
+import './updateItem.css'
 
 
 export const UpdateItem = ({date, action, name, status}) => {
     return (
-        <div className={'update-item'}>
+        <div className={'updateItem'}>
             <div>{date}</div>
             <div>{action}</div>
             <div>{name}</div>

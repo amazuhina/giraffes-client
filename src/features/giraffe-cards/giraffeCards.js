@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import './giraffe-cards.css'
+import './giraffeCards.css'
 import {Card} from "./card/card";
 import {useDispatch, useSelector} from "react-redux";
 
@@ -12,7 +12,7 @@ import {
     startLoading
 } from "../../redux/cardsSlice";
 import {Loading} from "../../ui/spinner";
-import {AlertIsFailure} from "../../ui/alert-is-failure";
+import {AlertIsFailure} from "../../ui/alertIsFailure";
 import {addGiraffe, giraffeSelector} from "../../redux/cardsSlice";
 import {setGiraffe} from "../../redux/giraffeSlice";
 
@@ -78,16 +78,6 @@ export const GiraffeCards = ({}) => {
                 dispatch(hasFailure())
                 console.error(messageError)
             })
-
-
-        /*
-        * GET
-        * POST
-        * PUT
-        * DELETE
-        *
-        * */
-
     }, [])
 
     const giraffes = useSelector(cardsSelector)
@@ -98,6 +88,7 @@ export const GiraffeCards = ({}) => {
 
     const renderCards = giraffes.length > 0
         ? giraffes.map(i => <Card
+                id={i.id}
                 name={i.name}
                 sex={i.sex}
                 weight={i.weight}
@@ -113,6 +104,7 @@ export const GiraffeCards = ({}) => {
 
     return (
         <div className={'giraffeCards'}>
+            <h2 className={'titlePage'}>Жирафы</h2>
             <button
                 onClick={onAddGiraffe}
                 className={'btnAddGiraffe'}

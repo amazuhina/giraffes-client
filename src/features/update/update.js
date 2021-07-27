@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import './update.css'
 import {useDispatch, useSelector} from "react-redux";
 import {setUpdate, updateSelector} from "../../redux/updateSlice";
-import {UpdateItem} from "./update-item/update-item";
+import {UpdateItem} from "./update-item/updateItem";
 import {Fullness} from "./fullness/fullness"
 import {Table} from "./table/table";
 

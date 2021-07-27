@@ -1,0 +1,35 @@
+.settingWindow {
+    background-color: #668663;
+    width: 175px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    z-index: 9999;
+}
+
+
+.edit, .delete {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #fff;
+    text-align: left;
+    align-items: center;
+}
+
+
+.edit:hover, .delete:hover {
+    background-color: #567354;
+    border-radius: 15px;
+}
+
+
+.iconSetting {
+    margin-right: 5px;
+}

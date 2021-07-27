@@ -1,6 +1,6 @@
 import React from 'react'
 import './table.css'
-import {UpdateItem} from "../update-item/update-item";
+import {UpdateItem} from "../update-item/updateItem";
 import {useSelector} from "react-redux";
 import {updateSelector} from "../../../redux/updateSlice";
 

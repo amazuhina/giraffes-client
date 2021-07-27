@@ -1,0 +1,20 @@
+.btnNav {
+    width: 237px;
+    background-color: #567354;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px;
+    margin: 10px;
+    transition: .3s;
+    text-align: left;
+}
+
+
+.btnNav:hover, .btnNav:focus {
+    background-color: #fff;
+    color: #435F40;
+}

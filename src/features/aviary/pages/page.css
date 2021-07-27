@@ -1,6 +1,9 @@
 .Page {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
+    height: 90vh;
+    width: 80%;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
 }

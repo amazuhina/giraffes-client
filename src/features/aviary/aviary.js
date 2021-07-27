@@ -1,6 +1,6 @@
 import React from 'react'
 import './aviary.css'
-import {AviaryTitle} from "./aviary-title/aviary-title";
+import {AviaryTitle} from "./aviaryTitle/aviaryTitle";
 import {useDispatch, useSelector} from "react-redux";
 import {aviarySelector, addAviary} from "../../redux/aviarySlice";
 

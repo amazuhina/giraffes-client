@@ -8,11 +8,66 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+    position: relative;
+    padding: 15px 10px;
 }
 
-p {
-    font-weight: 700;
+
+.btnSetting {
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    margin-left: 185px;
 }
+
+
+.mainValues {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+
+input {
+    border: 1px solid #ddd;
+    background-color: inherit;
+    border-radius: 15px;
+    outline: none;
+}
+
+
+.infoName {
+     font-weight: 700;
+     font-size: 18px;
+     text-align: center;
+ }
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 0 5px;
+    height: 35px;
+
+}
+
+
+.icon {
+    width: 40px;
+    object-fit: none;
+}
+
 
 .tableValues {
     font-weight: 700;
@@ -26,15 +81,45 @@ p {
     height: 35px;
 }
 
-.photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 10px;
+
+.infoTable {
+    width: 40px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 
+input[disabled] {
+    background-color: inherit;
+    border: none;
+}
 
-.info-values {
-    font-weight: 400;
+
+.titleCharacteristic {
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.infoCharacteristic{
+    text-align: center;
+}
+
+
+.toSave {
+    background-color: #567354;
+    border-radius: 15px;
+    color: #fff;
+    padding: 8px;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.toSave:hover {
+    background-color: #435F40;
 }

@@ -16,3 +16,11 @@
     display: flex;
 
 }
+
+.titlePage {
+    font-size: 32px;
+    font-weight: 700;
+    color: #567354;
+    display: inline-block;
+    margin-right: 15px;
+}

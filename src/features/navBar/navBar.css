@@ -1,0 +1,32 @@
+.NavBar {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+.header {
+    display: flex;
+}
+
+
+.iconLogo {
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.subtitle {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}

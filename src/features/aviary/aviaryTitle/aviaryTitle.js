@@ -1,5 +1,5 @@
 import React from 'react'
-import './aviary-title.css'
+import './aviaryTitle.css'
 import {useDispatch} from "react-redux";
 import {getGiraffe} from "../../../api/giraffe";
 

@@ -1,5 +1,6 @@
 import './App.css';
 import {Page} from "./features/aviary/pages/page";
+import {NavBar} from "./features/navBar/navBar";
 
 
 
@@ -10,6 +11,7 @@ import {Page} from "./features/aviary/pages/page";
 function App() {
   return (
     <div className="App">
+        <NavBar/>
         <Page/>
     </div>
   );
@@ -39,21 +41,7 @@ const colors= [
     }
 ]
 
-/*
 
-interface Color {
-    id: number
-    name: string
-}
-
-const Colors: Array<Color> = [
-    {
-
-    }
-]
-
-
-*/
 
 const Sex = {
     male: 'male',

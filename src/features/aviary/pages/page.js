@@ -1,7 +1,7 @@
 import React from 'react'
 import './page.css'
 import {Aviary} from "../aviary";
-import {GiraffeCards} from "../../giraffe-cards/giraffe-cards";
+import {GiraffeCards} from "../../giraffe-cards/giraffeCards";
 import {Update} from "../../update/update";
 
 
